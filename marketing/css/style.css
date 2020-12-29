@@ -1,7 +1,4 @@
 body {
-    /* font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Raleway', sans-serif; */
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -251,4 +248,56 @@ p {
 
 .magic__text {
     margin-bottom: 25px;
+}
+
+.portfolio {
+    padding: 140px 0 165px;
+}
+
+.portfolio__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.portfolio__btn {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #333333;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: border-color 0.4s linear;
+}
+
+.portfolio__btn:hover {
+    border-bottom: 1px solid #FCBB08;
+}
+
+.portfolio__content {
+    column-count: 4;
+    column-gap: 22px;
+}
+
+.portfolio__item {
+    margin-bottom: 22px;
+}
+
+.portfolio__item img {
+    width: 100%;
+}
+
+.portfolio__add {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+    color: #242121;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 42px 15px 41px;
+    background-color: #f6f8fa;
 }
