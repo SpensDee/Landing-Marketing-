@@ -270,6 +270,7 @@ p {
     text-transform: uppercase;
     border: 1px solid transparent;
     transition: border-color 0.4s linear;
+    outline: transparent;
 }
 
 .portfolio__btn:hover {
@@ -279,6 +280,7 @@ p {
 .portfolio__content {
     column-count: 4;
     column-gap: 22px;
+    max-height: 130vh;
 }
 
 .portfolio__item {
@@ -300,4 +302,61 @@ p {
     text-transform: uppercase;
     padding: 42px 15px 41px;
     background-color: #f6f8fa;
+    margin-bottom: 130px;
+}
+
+.blockquote {
+    max-width: 650px;
+    margin: 0 auto 148px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    color: #242121;
+}
+
+.blockquote__autor {
+    display: block;
+    color: #9e9e9e;
+    line-height: 32px;
+}
+
+.portfolio__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/portfolio_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 324px;
+    margin-bottom: 165px;
+}
+
+.portfolio__numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.porftfolio__numbers-item {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 9px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0px;
+    color: #242121;
+}
+
+.porftfolio__numbers-item span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333;
+    display: block;
 }

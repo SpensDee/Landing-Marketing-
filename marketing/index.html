@@ -190,40 +190,40 @@
             <div class="portfolio__top">
                 <h2 class="title">Portfolio</h2>
                 <div class="portfolio__filter-btn">
-                    <button class="portfolio__btn">all</button>
-                    <button class="portfolio__btn">branding</button>
-                    <button class="portfolio__btn">design</button>
-                    <button class="portfolio__btn">photography</button>
-                    <button class="portfolio__btn">illustration</button>
+                    <button class="portfolio__btn" data-filter="all">all</button>
+                    <button class="portfolio__btn" data-filter=".category-br">branding</button>
+                    <button class="portfolio__btn" data-filter=".category-dg">design</button>
+                    <button class="portfolio__btn" data-filter=".category-ph">photography</button>
+                    <button class="portfolio__btn" data-filter=".category-ill">illustration</button>
                 </div>
             </div>
         </div>
         <div class="portfolio__content">
-            <div class="portfolio__item">
-                <div class="portfolio__item">
-                    <img src="images/portfolio/1.jpg" alt="heand & milk">
-                </div>
-                <img src="images/portfolio/2.jpg" alt="style accesories">
+            <div class="portfolio__item mix category-dg" data-order="1">
+                <img src="images/portfolio/1.jpg" alt="heand & milk">
             </div>
-            <div class="portfolio__item">
+            <div class="portfolio__item mix category-br" data-order="2">
+                <img src="images/portfolio/2.jpg" alt="acessories">
+            </div>
+            <div class="portfolio__item mix category-ph" data-order="3">
                 <img src="images/portfolio/3.jpg" alt="serfig woman">
             </div>
-            <div class="portfolio__item">
+            <div class="portfolio__item mix category-dg" data-order="4">
                 <img src="images/portfolio/4.jpg" alt="snikers">
             </div>
-            <div class="portfolio__item">
-                <img src="images/portfolio/5.jpg" alt="palm trees>
+            <div class="portfolio__item mix category-ph" data-order="5">
+                <img src="images/portfolio/5.jpg" alt="palm trees">
             </div>
-            <div class=" portfolio__item">
+            <div class="portfolio__item mix category-dg" data-order="6">
                 <img src="images/portfolio/6.jpg" alt="purple cups">
             </div>
-            <div class="portfolio__item">
+            <div class="portfolio__item mix category-br" data-order="7">
                 <img src="images/portfolio/7.jpg" alt="cute small dog">
             </div>
-            <div class="portfolio__item">
+            <div class="portfolio__item mix category-ill" data-order="8">
                 <img src="images/portfolio/8.jpg" alt="yellow cup">
             </div>
-            <div class="portfolio__item">
+            <div class="portfolio__item mix category-ph" data-order="9">
                 <img src="images/portfolio/9.jpg" alt="banana">
             </div>
         </div>
@@ -236,16 +236,14 @@
         </blockquote>
         <div class="portfolio__video">
             <a class="portfolio__video-link" href="#">
-                <span class="portfolio__play-icon">
-                    <svg>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M3.04809 5.31272L48.8267 32.0164L3.04809 58.7201V5.31272ZM0 0.00285937V64.0271L54.8771 32.0136L0 0V0.00285937Z"
-                            fill="white" />
-                    </svg>
-                </span>
+                <svg width="55" height="65">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.04809 5.31272L48.8267 32.0164L3.04809 58.7201V5.31272ZM0 0.00285937V64.0271L54.8771 32.0136L0 0V0.00285937Z"
+                        fill="white" />
+                </svg>
             </a>
         </div>
-       <div class="container">
+        <div class="container">
             <div class="portfolio__numbers">
                 <h5 class="porftfolio__numbers-item">
                     305
@@ -264,9 +262,10 @@
                     <span>Mobile Apps</span>
                 </h5>
             </div>
-       </div>
+        </div>
     </section>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
