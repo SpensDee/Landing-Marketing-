@@ -278,17 +278,18 @@ p {
 }
 
 .portfolio__content {
-    column-count: 4;
-    column-gap: 22px;
-    max-height: 130vh;
+    display: flex;
+    justify-content: center;
 }
 
-.portfolio__item {
-    margin-bottom: 22px;
+.portfolio__column {
+    display: flex;
+    flex-flow: column wrap; 
 }
 
-.portfolio__item img {
-    width: 100%;
+.portfolio__item img{
+    margin-bottom: 23px;
+    margin-right:22px;
 }
 
 .portfolio__add {
