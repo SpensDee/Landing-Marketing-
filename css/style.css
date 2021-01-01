@@ -285,19 +285,47 @@ p {
 }
 
 .portfolio__content {
-    display: flex;
-    justify-content: center;
+    column-count: 4;
+    column-gap: 10px;
     margin-bottom: 72px;
 }
 
-.portfolio__column {
-    display: flex;
-    flex-flow: column wrap; 
+.portfolio__item {   
+    position: relative;    
 }
 
 .portfolio__item img{
     margin-bottom: 23px;
-    margin-right:22px;
+}
+
+.portfolio__item:hover > img {
+    transform: scale(1.2);
+    transition: all 3s linear;
+}
+
+
+.portfolio__item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600; 
+    letter-spacing: 1.4px;
+    color: #fff;
+    background-color: #020202b0;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* border: 12px solid #666565; */
+    transition: all 0.3s linear;
+    position: absolute;
+    top: 0;
+    right: 22px;
+    bottom: 23px;
+    left: 0;
+    opacity: 0;
+}
+
+.portfolio__item-link:hover {
+    opacity: 1;
 }
 
 .portfolio__add {
