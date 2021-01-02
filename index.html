@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/my_reset.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -60,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div class="header__content">
+        <div class="header__content" style="background-image: url(images/header-bg.jpg);">
             <div class="container">
                 <div class="header__content-inner">
                     <h1 class="header__title">
@@ -79,7 +80,7 @@
 
     <section class="about">
         <div class="container">
-            <div class="about__inner"  id="about">
+            <div class="about__inner" id="about">
                 <h2 class="about__title title">About Us</h2>
                 <div class="about__text">
                     <p>
@@ -162,7 +163,7 @@
         </div>
     </section>
 
-    <section class="magic">
+    <section class="magic" style="background-image: url(images/magic.jpg);">
         <div class="container">
             <div class="magic__inner">
                 <h2 class="title magic__title">Let’s make magic.</h2>
@@ -199,58 +200,53 @@
                 </div>
             </div>
         </div>
+
         <div class="portfolio__content">
-            <div class="portfolio__column">               
-                    <div class="portfolio__item mix category-dg">
-                        <img src="images/portfolio/1.jpg" alt="heand & milk">
-                        <a class="portfolio__item-link" href="#">show project</a>
-                    </div>
-                    <div class="portfolio__item mix category-br">
-                        <img src="images/portfolio/2.jpg" alt="acessories">
-                        <a class="portfolio__item-link" href="#">show project</a>
-                    </div>
+            <div class="portfolio__column">
+                <div class="portfolio__item mix category-dg">
+                    <img src="images/portfolio/1.jpg" alt="heand & milk">
+                    <a class="portfolio__item-link" href="#">show project</a>
+                </div>
+                <div class="portfolio__item mix category-br">
+                    <img src="images/portfolio/2.jpg" alt="acessories">
+                    <a class="portfolio__item-link" href="#">show project</a>
+                </div>
             </div>
-            
-            
-                <div class="portfolio__column">
-                    <div class="portfolio__item mix category-ph">
-                        <img src="images/portfolio/3.jpg" alt="serfig woman">
-                        <a class="portfolio__item-link" href="#">show project</a>
-                    </div>
-                    <div class="portfolio__item mix category-dg">
-                        <img src="images/portfolio/4.jpg" alt="snikers">
-                        <a class="portfolio__item-link" href="#">show project</a>
-                    </div>
-                    <div class="portfolio__item mix category-ph">
-                        <img src="images/portfolio/5.jpg" alt="palm trees">
-                        <a class="portfolio__item-link" href="#">show project</a>
-                    </div>
+            <div class="portfolio__column">
+                <div class="portfolio__item mix category-ph">
+                    <img src="images/portfolio/3.jpg" alt="serfig woman">
+                    <a class="portfolio__item-link" href="#">show project</a>
                 </div>
-            
-            
-                <div class="portfolio__column">
-                    <div class="portfolio__item mix category-dg">
-                        <img src="images/portfolio/6.jpg" alt="purple cups">
-                        <a class="portfolio__item-link" href="#">show project</a>
-                    </div>
-                    <div class="portfolio__item mix category-br">
-                        <img src="images/portfolio/7.jpg" alt="cute small dog">
-                        <a class="portfolio__item-link" href="#">show project</a>
-                    </div>
+                <div class="portfolio__item mix category-dg">
+                    <img src="images/portfolio/4.jpg" alt="snikers">
+                    <a class="portfolio__item-link" href="#">show project</a>
                 </div>
-            
-            
-               <div class="portfolio__column">
-                    <div class="portfolio__item mix category-ill">
-                        <img src="images/portfolio/8.jpg" alt="yellow cup">
-                        <a class="portfolio__item-link" href="#">show project</a>
-                    </div>
-                    <div class="portfolio__item mix category-ph">
-                        <img src="images/portfolio/9.jpg" alt="banana">
-                        <a class="portfolio__item-link" href="#">show project</a>
-                    </div>
-               </div>
-            
+                <div class="portfolio__item mix category-ph">
+                    <img src="images/portfolio/5.jpg" alt="palm trees">
+                    <a class="portfolio__item-link" href="#">show project</a>
+                </div>
+            </div>
+            <div class="portfolio__column">
+                <div class="portfolio__item mix category-dg">
+                    <img src="images/portfolio/6.jpg" alt="purple cups">
+                    <a class="portfolio__item-link" href="#">show project</a>
+                </div>
+                <div class="portfolio__item mix category-br">
+                    <img src="images/portfolio/7.jpg" alt="cute small dog">
+                    <a class="portfolio__item-link" href="#">show project</a>
+                </div>
+            </div>
+            <div class="portfolio__column">
+                <div class="portfolio__item mix category-ill">
+                    <img src="images/portfolio/8.jpg" alt="yellow cup">
+                    <a class="portfolio__item-link" href="#">show project</a>
+                </div>
+                <div class="portfolio__item mix category-ph">
+                    <img src="images/portfolio/9.jpg" alt="banana">
+                    <a class="portfolio__item-link" href="#">show project</a>
+                </div>
+            </div>
+
         </div>
         <a class="portfolio__add" href="#">
             view more project
@@ -289,9 +285,159 @@
             </div>
         </div>
     </section>
+
+    <section class="slider-blog" style="background-color: #F8F6FA;">
+        <div class="container">
+            <div class="slider-blog__inner">
+
+
+                <div class="slider-blog__item">
+                    <a class="slider-blog__item-link" href="#">
+                        <h3 class="slider-blog__item-title">
+                            анимированный логотип - тренд или необходимость?
+                        </h3>
+                    </a>
+                    <p class="slider-blog__item-descr">
+                        Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это
+                        модно? Давайте обсудим.
+                    </p>
+                </div>
+                <div class="slider-blog__item">
+                    <a class="slider-blog__item-link" href="#">
+                        <h3 class="slider-blog__item-title">
+                            анимированный логотип тренд или необходимость?
+                        </h3>
+                    </a>
+                    <p class="slider-blog__item-descr">
+                        Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это
+                        модно? Давайте обсудим.
+                    </p>
+                </div>
+                <div class="slider-blog__item">
+                    <a class="slider-blog__item-link" href="#">
+                        <h3 class="slider-blog__item-title">
+                            анимированный логотип тренд или необходимость?
+                        </h3>
+                    </a>
+                    <p class="slider-blog__item-descr">
+                        Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это
+                        модно? Давайте обсудим.
+                    </p>
+                </div>
+                <div class="slider-blog__item">
+                    <a class="slider-blog__item-link" href="#">
+                        <h3 class="slider-blog__item-title">
+                            анимированный логотип тренд или необходимость?
+                        </h3>
+                    </a>
+                    <p class="slider-blog__item-descr">
+                        Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это
+                        модно? Давайте обсудим.
+                    </p>
+                </div>
+                <div class="slider-blog__item">
+                    <a class="slider-blog__item-link" href="#">
+                        <h3 class="slider-blog__item-title">
+                            анимированный логотип тренд или необходимость?
+                        </h3>
+                    </a>
+                    <p class="slider-blog__item-descr">
+                        Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это
+                        модно? Давайте обсудим.
+                    </p>
+                </div>
+                <div class="slider-blog__item">
+                    <a class="slider-blog__item-link" href="#">
+                        <h3 class="slider-blog__item-title">
+                            анимированный логотип тренд или необходимость?
+                        </h3>
+                    </a>
+                    <p class="slider-blog__item-descr">
+                        Что представляет собой анимированный логотип, и в чем его преимущества? И почему сейчас это
+                        модно? Давайте обсудим.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <h2 class="team__title title">Our Team</h2>
+            <div class="team__items">
+                <div class="team__item">
+                    <img src="images/team1.jpg" alt="#">
+                    <h6 class="team__name">МАКС</h6>
+                    <p class="team__position">СЕО</p>
+                </div>
+                <div class="team__item">
+                    <img src="images/team2.jpg" alt="#">
+                    <h6 class="team__name">АНЯ</h6>
+                    <p class="team__position">Co-Founder</p>
+                </div>
+                <div class="team__item">
+                    <img src="images/team3.jpg" alt="#">
+                    <h6 class="team__name">МИЛА</h6>
+                    <p class="team__position">Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <h2 class="title__pricing title">Pricing Planc</h2>
+            <div class="pricing__items">
+                <ul class="pricing__item">
+                    <li class="pricing__item-name">Basic</li>
+                    <li class="pricing__item-num"><sup>$</sup>290</li>
+                    <li>1 Logo Design</li>
+                    <li>1 Website Design</li>
+                    <li>1 Domain Free</li>
+                    <li>3 Month License</li>
+                    <li>1 GB Storage</li>
+                    <li>
+                        <a  class="pricing__item-link" href="#">
+                            choose plan   
+                        </a>
+                    </li>
+                </ul>
+                <ul class="pricing__item">
+                    <li class="pricing__item-name">Starter</li>
+                    <li class="pricing__item-num"><sup>$</sup>500</li>
+                    <li>2 Logo Design</li>
+                    <li>2 Website Design</li>
+                    <li>1 Domain Free</li>
+                    <li>6 Month License</li>
+                    <li>1 GB Storage</li>
+                    <li>
+                        <a  class="pricing__item-link" href="#">
+                            choose plan   
+                        </a>
+                    </li>
+                </ul>
+                <ul class="pricing__item">
+                    <li class="pricing__item-name">Professional</li>
+                    <li class="pricing__item-num"><sup>$</sup>1500</li>
+                    <li>3 Logo Design</li>
+                    <li>3 Website Design</li>
+                    <li>2 Domain Free</li>
+                    <li>12 Month License</li>
+                    <li>2 GB Storage</li>
+                    <li>
+                        <a  class="pricing__item-link" href="#">
+                            choose plan   
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/mixitup.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

@@ -7,9 +7,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.3;
     font-style: normal;
     color: #373A39;
+    background-color: #fff;
 }
 
 .container {
@@ -44,8 +45,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 29px;
-    z-index: 3;
+    padding-bottom: 29px; 
 }
 
 .menu__list {
@@ -75,7 +75,6 @@ body {
 }
 
 .header__content {
-    background-image: url('../images/header-bg.jpg');
     background-repeat: no-repeat;
     background-position: center 78px;
     background-size: cover;
@@ -235,8 +234,7 @@ p {
 }
 
 .magic {
-    background-color: #f6f8fa;
-    background-image: url('../images/magic.jpg');
+    background-color: #f6f8fa;   
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: left 82%;
@@ -285,20 +283,19 @@ p {
     border-bottom: 1px solid #FCBB08;
 }
 
- .portfolio__content {
+.portfolio__content {
     display: flex;
     justify-content: center;
     margin-bottom: 72px;
 }
 
-.portfolio__item {   
-    position: relative;  
-    margin: 0 23px 22px;
-    overflow: hidden;
+.portfolio__column .portfolio__item{
+    margin: 0 7px 14px;
 }
 
-.portfolio__item img{
-    width: 100%;
+.portfolio__item {   
+    position: relative;
+    overflow: hidden;
 }
 
 .portfolio__item-link {
@@ -346,7 +343,7 @@ p {
 
 .blockquote {
     max-width: 650px;
-    margin: 0 auto 148px;
+    margin: 0 auto 140px;
     text-align: center;
     font-style: italic;
     font-family: 'Merriweather', serif;
@@ -360,6 +357,7 @@ p {
     display: block;
     color: #9e9e9e;
     line-height: 32px;
+    margin-top: 60px;
 }
 
 .portfolio__video {
@@ -404,4 +402,168 @@ p {
     line-height: 19px;
     color: #333;
     display: block;
+}
+
+.slider-blog {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    padding: 115px 0;
+}
+
+.slider-blog__item {
+    padding: 190px 5px;
+}
+
+.slider-blog__item-link {
+    text-decoration: none;
+}
+
+.slider-blog__item-title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #242121;
+    width: 557px;
+    outline: transparent;
+    text-transform: uppercase;
+    line-height: 52px;
+    display: inline-block;
+}
+
+.slider-blog__item-descr {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #373A39;
+    width: 540px;
+}
+
+.slick-dots {
+    display: flex;
+}
+
+.slick-dots button {
+    background-color: #242121;
+    opacity: 0.4;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    font-size: 0;
+    padding: 0;
+    border: none;
+}
+
+.slick-dots li + li {
+    margin-left: 13px;
+}
+
+.slick-dots .slick-active button {
+    opacity: 1;
+    width: 10px;
+    height: 10px; 
+    outline: transparent;
+}
+
+.slick-prev,
+.slick-next {
+    background-color: transparent;
+    border: none;
+    outline: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 42%;
+    transform: translateY(-50%);
+}
+
+.slick-prev {
+    left: -95px;
+}
+
+.slick-next {
+    right: -95px;
+}
+
+.team {
+    padding: 135px 0 130px;
+}
+
+.team__title {
+    margin-bottom: 100px;
+}
+
+.team__items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team__name {
+    padding: 35px 0 12px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+.team__position {
+    font-weight: 200;
+    font-size: 12px;
+    color: #373A39;
+}
+
+.pricing {
+    padding: 144px 0 162px;
+    background-color: #F6F8FA;
+}
+
+.title__pricing {
+    margin-bottom: 90px;
+}
+
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.pricing__item {
+    background-color: #fff;
+    text-align: center;
+    padding: 24px 25px 50px;
+    width: 370px;
+}
+
+.pricing__item li{
+    font-weight: 300;
+    font-size: 16px;
+    color: #422222;
+    margin-bottom: 30px;
+}
+
+.pricing__item .pricing__item-name {
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.pricing__item .pricing__item-num{
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+.pricing__item .pricing__item-num sup {
+    font-size: 40px;
+}
+
+.pricing__item-link {
+    display: inline-block;
+    margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #242121;
 }
