@@ -75,7 +75,7 @@ body {
 
 .header__content {
     background-repeat: no-repeat;
-    background-position: center 78px;
+    background-position: center top;
     background-size: cover;
 }
 
@@ -699,7 +699,7 @@ ul.pricing__item {
     background-color: #2A2C2B;
 }
 
-.footer__copy, p {
+.footer__copy p {
     max-width: 100%;
     color: #CCCCCC;
     font-size: 12px;
