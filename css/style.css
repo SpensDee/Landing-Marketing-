@@ -1,4 +1,3 @@
-
 html {
     scroll-behavior: smooth;
 }
@@ -45,7 +44,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 29px; 
+    padding-bottom: 29px;
 }
 
 .menu__list {
@@ -234,7 +233,7 @@ p {
 }
 
 .magic {
-    background-color: #f6f8fa;   
+    background-color: #f6f8fa;
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: left 82%;
@@ -289,11 +288,11 @@ p {
     margin-bottom: 72px;
 }
 
-.portfolio__column .portfolio__item{
+.portfolio__column .portfolio__item {
     margin: 0 7px 14px;
 }
 
-.portfolio__item {   
+.portfolio__item {
     position: relative;
     overflow: hidden;
 }
@@ -302,7 +301,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 600; 
+    font-weight: 600;
     letter-spacing: 1.4px;
     color: #fff;
     background-color: #020202b0;
@@ -321,7 +320,7 @@ p {
     opacity: 1;
 }
 
-.portfolio__column .portfolio__item:hover img{
+.portfolio__column .portfolio__item:hover img {
     transform: scale(1.2);
     transition: all 3s linear;
 }
@@ -370,7 +369,7 @@ p {
     background-position: center center;
     height: 324px;
     margin-bottom: 165px;
-    
+
 }
 
 .portfolio__video svg:hover {
@@ -455,14 +454,14 @@ p {
     border: none;
 }
 
-.slick-dots li + li {
+.slick-dots li+li {
     margin-left: 13px;
 }
 
 .slick-dots .slick-active button {
     opacity: 1;
     width: 10px;
-    height: 10px; 
+    height: 10px;
     outline: transparent;
 }
 
@@ -532,9 +531,17 @@ ul.pricing__item {
     text-align: center;
     padding: 24px 25px 50px;
     width: 370px;
+
+    transition: all 0.4s linear;
 }
 
-.pricing__item li{
+.pricing__item:hover {
+    -webkit-box-shadow: 0px 0px 11px 5px rgba(34, 60, 80, 0.13);
+    -moz-box-shadow: 0px 0px 11px 5px rgba(34, 60, 80, 0.13);
+    box-shadow: 0px 0px 11px 5px rgba(34, 60, 80, 0.13);
+}
+
+.pricing__item li {
     font-weight: 300;
     font-size: 16px;
     color: #422222;
@@ -547,7 +554,7 @@ ul.pricing__item {
     margin-bottom: 8px;
 }
 
-.pricing__item .pricing__item-num{
+.pricing__item .pricing__item-num {
     font-size: 80px;
     margin-bottom: 50px;
 }
@@ -566,4 +573,137 @@ ul.pricing__item {
     text-transform: uppercase;
     text-decoration: none;
     color: #242121;
+}
+
+.clents {
+    padding: 69px 0 94px;
+    background-color: #fff;
+}
+
+.client__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connection {
+    padding: 145px 0 160px;
+    background-repeat: no-repeat;
+    background-position: right 65%;
+    background-size: 45%;
+}
+
+.conection__title {
+    margin-bottom: 80px;
+}
+
+
+.form {
+    max-width: 570px;
+}
+
+.form input,
+.form textarea {
+    border: none;
+    border-bottom: 2px solid #373A39;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    outline: transparent;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    line-height: 20px;
+    letter-spacing: 3.71px;
+    color: #B8B8B8;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+.form button {
+    padding: 17px 70px 15px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #242121;
+    text-transform: uppercase;
+}
+
+.footer__top {
+    padding: 110px 10px 60px;
+    background-color: #333;
+    text-align: center;
+}
+
+.footer__logo {
+    display: inline-block;
+    padding: 0 35px 4px;
+    border-bottom: 2px solid #fcbb08;
+    margin-bottom: 70px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px !important;
+}
+
+.footer__social-list a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+.footer__contacts {
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 57px;
+}
+
+.footer__contacts a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0px;
+    margin: 10px 0;
+}
+
+.go-top {
+    display: inline-block;
+}
+
+.footer__copy {
+    text-align: center;
+    padding: 43px 10px 41px;
+    background-color: #2A2C2B;
+}
+
+.footer__copy, p {
+    max-width: 100%;
+    color: #CCCCCC;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0px;
 }

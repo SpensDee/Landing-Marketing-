@@ -17,12 +17,12 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__top">
             <div class="container">
                 <div class="header__top-inner">
                     <a class="logo" href="#">
-                        <img class="logo__img" src="images/logo.svg" alt="Логотип">
+                        <img class="logo__img" src="images/logo.svg">
                     </a>
                     <nav class="menu">
                         <ul class="menu__list">
@@ -398,8 +398,8 @@
                     <li>3 Month License</li>
                     <li>1 GB Storage</li>
                     <li>
-                        <a  class="pricing__item-link" href="#">
-                            choose plan   
+                        <a class="pricing__item-link" href="#">
+                            choose plan
                         </a>
                     </li>
                 </ul>
@@ -412,8 +412,8 @@
                     <li>6 Month License</li>
                     <li>1 GB Storage</li>
                     <li>
-                        <a  class="pricing__item-link" href="#">
-                            choose plan   
+                        <a class="pricing__item-link" href="#">
+                            choose plan
                         </a>
                     </li>
                 </ul>
@@ -426,14 +426,81 @@
                     <li>12 Month License</li>
                     <li>2 GB Storage</li>
                     <li>
-                        <a  class="pricing__item-link" href="#">
-                            choose plan   
+                        <a class="pricing__item-link" href="#">
+                            choose plan
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
+
+    <section class="clents">
+        <div class="container">
+            <ul class="client__list">
+                <li><img src="images/clients/1.png" alt="intertop"></li>
+                <li><img src="images/clients/2.png" alt="vizor"></li>
+                <li><img src="images/clients/3.png" alt="planetkino"></li>
+                <li><img src="images/clients/4.png" alt="uklon"></li>
+                <li><img src="images/clients/5.png" alt="citrus"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="connection" style="background-image: url(images/map.jpg);">
+        <div class="container">
+            <h2 class="conection__title title">Get in Touch</h2>
+            <form action="" class="form">
+                <input type="text" placeholder="имя">
+                <input type="text" placeholder="ваш email">
+                <textarea placeholder="ВАШЕ СООБЩЕНИЕ"></textarea>
+                <button type="submit">отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <fotter class="footer">
+        <div class="footer__top">
+            <a class="footer__logo" href="#">
+                <img src="images/footer-logo.svg">
+            </a>
+            <ul class="footer__social">
+                <li class="footer__social-list">
+                    <a href="#" class="footer__social-link">facebook</a>
+                </li>
+                <li class="footer__social-list">
+                    <a href="#" class="footer__social-link">twitter</a>
+                </li>
+                <li class="footer__social-list">
+                    <a href="#" class="footer__social-link">goole+</a>
+                </li>
+                <li class="footer__social-list">
+                    <a href="#" class="footer__social-link">behance</a>
+                </li>
+                <li class="footer__social-list">
+                    <a href="#" class="footer__social-link">dribble</a>
+                </li>
+                <li class="footer__social-list">
+                    <a href="#" class="footer__social-link">instagram</a>
+                </li>
+            </ul>
+            <div class="footer__contacts">
+                <adress class="adress">
+                    Украина, Харьков ул. Тобольская, 63
+                </adress>
+                <a class="phone" href="tel:+3806765252222">+38(067) 65 252 222</a>
+                <a class="email" href="mailto:info@mail.com">info@mail.com</a>
+                <a class="go-top" href="#header">
+            </div>
+                <svg width="17" height="9" viewBox="0 0 17 9" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.354 7.89597L15.647 8.60297L8.5 1.45697L1.354 8.60297L0.647 7.89597L8.5 0.0429688L16.354 7.89597Z" fill="white"/>
+                </svg>
+            </a>
+        </div>
+        <div class="footer__copy">
+            <p>2021 Front End Developer Ilyas Bezhanidze</p>
+        </div>
+    </fotter>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/mixitup.min.js"></script>
