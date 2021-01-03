@@ -77,7 +77,6 @@ body {
     background-repeat: no-repeat;
     background-position: center 78px;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .header__content-inner {
