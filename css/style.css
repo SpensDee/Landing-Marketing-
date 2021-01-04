@@ -47,6 +47,10 @@ body {
     padding-bottom: 29px;
 }
 
+.menu__btn {
+    display: none;
+}
+
 .menu__list {
     display: flex;
 }
@@ -706,3 +710,4 @@ ul.pricing__item {
     font-weight: 400;
     letter-spacing: 0px;
 }
+
