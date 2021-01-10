@@ -715,28 +715,47 @@ ul.pricing__item {
 
 @media (max-width: 768px) {
 
+    .container:first-child {
+        padding: 0 15px;
+    }
+
+    .logo {
+        position: relative;
+        top: 10px;
+    }
+
     .menu__btn {
         display: block;
         background-color: transparent;
         outline: transparent;
         border: none;
         padding: 0;
+        position: relative;
+        z-index: 2;
     }
 
     .menu__list {
         display: block;
         position: absolute;
         right: 0;
-        top: 90px;
+        top: 25px;
         background-color: rgba(0, 0, 0, 0.733);
         text-align: right;
         padding: 15px 0;
         transform: translateX(100%);
-        transition: transform 0.3s linear;
+        transition: all 0.2s linear;
     }
 
-    .menu__list.menu__list--active {
+    .header__top-inner.header__top-inner--active  .menu__list{
         transform: translateX(0%);
+    }
+
+    .header__top-inner.header__top-inner--active  .menu__btn path {
+        fill: #fff;
+    }
+
+    .header__top-inner.header__top-inner--active  .menu__btn rect {
+        fill: #fff;
     }
 
     .menu__list-item {
@@ -744,7 +763,7 @@ ul.pricing__item {
     }
 
     ul.menu__list {
-        padding: 35px 50px 35px 80px;
+        padding: 50px 58px 35px 80px;
     }
 
     .menu__list-item + .menu__list-item {
@@ -757,6 +776,7 @@ ul.pricing__item {
         color: #fff;
         font-size: 16px;
         padding-right: 40px;
+        letter-spacing: 0.15em;
     }
 
     .menu__list-link:hover {
