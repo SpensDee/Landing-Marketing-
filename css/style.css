@@ -412,6 +412,8 @@ p {
     background-position: center;
     min-height: 100%;
     padding: 115px 0;
+    overflow: hidden;
+    position: relative;
 }
 
 .slider-blog__item {
@@ -711,3 +713,78 @@ ul.pricing__item {
     letter-spacing: 0px;
 }
 
+@media (max-width: 768px) {
+
+    .menu__btn {
+        display: block;
+        background-color: transparent;
+        outline: transparent;
+        border: none;
+        padding: 0;
+    }
+
+    .menu__list {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 90px;
+        background-color: rgba(0, 0, 0, 0.733);
+        text-align: right;
+        padding: 15px 0;
+        transform: translateX(100%);
+        transition: transform 0.3s linear;
+    }
+
+    .menu__list.menu__list--active {
+        transform: translateX(0%);
+    }
+
+    .menu__list-item {
+        border-right: 1px solid #fff;
+    }
+
+    ul.menu__list {
+        padding: 35px 50px 35px 80px;
+    }
+
+    .menu__list-item + .menu__list-item {
+        margin-left: 0;
+    }
+
+    .menu__list-link {
+        display: block;
+        padding: 25px 0;
+        color: #fff;
+        font-size: 16px;
+        padding-right: 40px;
+    }
+
+    .menu__list-link:hover {
+        border: none;
+    }
+
+
+    .header__title {
+        font-size: 50px;
+        line-height: 65px;
+        margin-bottom: 10px;
+    }
+
+    .header__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .header__title {
+        font-size: 36px;
+        line-height: 44px; 
+    }
+
+    .header__subtitle {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
