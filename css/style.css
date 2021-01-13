@@ -770,6 +770,10 @@ ul.pricing__item {
         margin: 0 auto;
         max-width: 100%;
     }
+
+    .magic__title {
+        font-size: 50px;
+    }
 }
 
 @media (max-width: 768px) {
