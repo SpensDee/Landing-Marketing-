@@ -535,7 +535,7 @@ ul.pricing__item {
     background-color: #fff;
     text-align: center;
     padding: 24px 25px 50px;
-    width: 370px;
+    max-width: 370px;
 
     transition: all 0.4s linear;
 }
@@ -746,7 +746,8 @@ ul.pricing__item {
     .portfolio,
     .slider-blog,
     .team,
-    .pricing {
+    .pricing,
+    .connection{
         padding: 75px 0;
     }
 
@@ -756,7 +757,8 @@ ul.pricing__item {
 
     .about__title,
     .team__title,
-    .pricing__title {
+    .pricing__title,
+    .conection__title  {
         margin-bottom: 50px;
     }
 
@@ -829,6 +831,32 @@ ul.pricing__item {
 
     .portfolio__filter-btn {
         margin-top: 40px;
+    }
+
+    .connection {
+        background-image: none !important;
+    }
+
+    .form {
+        max-width: 100%;
+    }
+    
+    .footer__top {
+        padding-top: 75px;
+    }
+
+    .footer__logo {
+        margin-bottom: 40px;
+    }
+
+    ul.footer__social {
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footer__social-list {
+        width: 33.333%;
+        margin-bottom: 25px;
     }
 }
 
@@ -1044,5 +1072,10 @@ ul.pricing__item {
 
      .porftfolio__numbers-item {
          width: 100%;
+    }
+
+    .footer__social-list {
+        width: 100%;
+        margin-bottom: 15px;
     }
 }
