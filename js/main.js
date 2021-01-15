@@ -3,7 +3,15 @@ $(function(){
     $('.slider-blog__inner').slick({
         dots: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="images/prevArrow.svg" alt="arrow_left"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="images/nextArrow.svg" alt="arrow_right"></button>'
+        nextArrow: '<button type="button" class="slick-next"><img src="images/nextArrow.svg" alt="arrow_right"></button>',
+        responsive: [
+            {
+              breakpoint: 769,
+              settings: {
+                arrows: false
+              }
+            }
+          ]
     });
 
     $('.menu__btn').on('click', function(){
