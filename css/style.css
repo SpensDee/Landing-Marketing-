@@ -536,6 +536,7 @@ ul.pricing__item {
     text-align: center;
     padding: 24px 25px 50px;
     max-width: 370px;
+    width: 100%;
 
     transition: all 0.4s linear;
 }
@@ -1060,6 +1061,16 @@ ul.pricing__item {
         margin-bottom: 15px;}   
 }
 
+@media (max-width: 530px) {
+    .slider-blog__item-title {
+        min-width: 453px;
+    }
+
+    .slider-blog__item-descr {
+        max-width: 400px;
+    }
+}
+
 @media (max-width: 340px) {
     .expertise__item {
         padding-left: 0;
@@ -1077,5 +1088,15 @@ ul.pricing__item {
     .footer__social-list {
         width: 100%;
         margin-bottom: 15px;
+    }
+
+    .slider-blog__item-title {
+        min-width: 339px;
+        padding-left: 20px;
+    }
+
+    .slider-blog__item-descr {
+        max-width: 322px;
+        padding-left: 20px;
     }
 }
